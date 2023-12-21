@@ -2,16 +2,16 @@
 
 ## Workflows:
 
-- Update config.yaml
-- Update secrets.yaml (Optional)
-- Update params.yaml
-- Update the entity
-- Update the configuration manager in src config
-- Update the components
-- Update the pipeline
-- Update main.py
-- Update dvc.yaml
-- app.py
+1. Update config.yaml
+2. Update secrets.yaml (Optional)
+3. Update params.yaml
+4. Update the entity
+5. Update the configuration manager in src config
+6. Update the components
+7. Update the pipeline
+8. Update main.py
+9. Update dvc.yaml
+10. app.py
 
 ## How to Run:
 
@@ -25,7 +25,7 @@ https://github.com/NagrajADesai/Kidney-Disease-Classification-Deep-Learning-Proj
 
 2. Create a Conda environment:
 ```
-conda create -n cnncls python=3.8 -y
+conda create -n <environment_name> python=3.8 -y
 ```
 ```
 conda activate <your_environment_name>
