@@ -2,6 +2,7 @@ import os
 import sys
 import logging
 
+# logging information structure
 logging_str = "[%(asctime)s: %(levelname)s: %(module)s: %(message)s]"
 
 log_dir = "logs"
@@ -14,7 +15,9 @@ logging.basicConfig(
     format= logging_str,
 
     handlers=[
+        # save logging info in file
         logging.FileHandler(log_filepath),
+        # show logging info in terminal
         logging.StreamHandler(sys.stdout)
     ]
 )
